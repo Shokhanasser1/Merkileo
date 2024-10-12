@@ -1,6 +1,13 @@
 {% extends 'base.html' %}
 {% load static %}
 
+{% block cssLink %}
+    <link rel="stylesheet" href="../static/styles/main.css">
+{% endblock %}
+<!-- <link rel="stylesheet" href="../static/styles/main.scss"> -->
+{% block title %}
+    Main Page
+{% endblock %}
 {% block content %}
     <h2>HELLO</h2>
 {% endblock %}
