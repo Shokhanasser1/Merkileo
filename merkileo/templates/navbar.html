@@ -1,1 +1,56 @@
-<h3>HI Im a Navbar!</h3>
+<div class="navbar-container">
+    <div class="top-nav">
+        <div class="pages">
+            <a href="">About Us</a>
+            <a href="">Our Contacts</a>
+            <a href="">Order Tracking</a>
+        </div>
+        <div class="quote">
+            <a href="">Activate your coupon to save more!</a>
+        </div>
+        <div class="web-tools">
+            <a>Need help call us +123456789</a>
+            <span class="language">
+                <select id="language-select" onchange="">
+                    <option value="ru">RU</option>
+                    <option value="en">EN</option>
+                </select>
+            </span>
+            <span class="money">
+                <select id="money-select" onchange="">
+                    <option value="usd">USD</option>
+                    <option value="sum">SUM</option>
+                </select>
+            </span>
+        </div>
+    </div>
+    <div class="middle-nav">
+        <div class="logo">
+            <img src="../static/logo.jpg" alt="logo">
+            <a href="">Merkileo</a>
+        </div>
+        <div class="search">
+            <select id="category-select" onchange="">
+                <option value="all" selected>Все категории</option>
+                <option value="electronics">Электроника</option>
+                <option value="clothing">Одежда</option>
+                <option value="groceries">Продукты</option>
+                <option value="furniture">Мебель</option>
+            </select>
+            <input type="text" placeholder="Searh for items...">
+            <img src="../static/icons/Search.png" width="20" height="20"  alt="search">
+        </div>
+        <div class="tools">
+            <select id="location">
+                <option value="all" selected><img src="../static/icons/Location.png" alt="location">Ваша локация</option>
+                <option value="Samarkand">Самарканд</option>
+            </select>
+            <a href=""><img src="../static/icons/Wishlist.png" width="20" height="20" alt="wishlist">Wishlist</a>
+            <a href=""><img src="../static/icons/cart.png" alt="cart">Cart</a>
+            <a href=""><img src="../static/icons/User.png" alt="account">Account</a>
+        </div>
+    </div>
+    <!-- <div class="bottom-nav">
+
+    </div> -->
+</div>

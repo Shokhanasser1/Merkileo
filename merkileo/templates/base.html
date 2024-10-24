@@ -5,30 +5,35 @@
 
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     {% block cssLink %}
-    
+
     {% endblock %}
     <link rel="shortcut icon" href="{% static 'logo.jpg' %}" type="image/x-icon">
     <title>
         {% block title %}
-        
+
         {% endblock %}
     </title>
 </head>
+
 <body>
-    {% include 'navbar.html' %}
+    <div class="main-container">
 
-    {% block content %}
-    
-    {% endblock %}
+        {% include 'navbar.html' %}
 
-    {% include 'footer.html' %}
+        {% block content %}
 
-    {% block scripts %}
-    
-    {% endblock %}
+        {% endblock %}
+
+        {% include 'footer.html' %}
+
+        {% block scripts %}
+
+        {% endblock %}
+    </div>
 </body>
 </html>

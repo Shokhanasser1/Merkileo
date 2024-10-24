@@ -1,3 +1,169 @@
-h2 {
-  color: red;
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.main-container {
+  width: 1920px;
+  margin: 0 auto;
+  font-family: "Montserrat", sans-serif;
+}
+.main-container .navbar-container {
+  width: 100%;
+  margin: 0 auto;
+  height: 140px;
+}
+.main-container .navbar-container .top-nav {
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  font-size: 16px;
+  border-bottom: 2px solid rgb(221, 221, 221);
+}
+.main-container .navbar-container .top-nav .pages {
+  margin-left: 50px;
+}
+.main-container .navbar-container .top-nav .web-tools {
+  margin-right: 50px;
+  cursor: pointer;
+}
+.main-container .navbar-container .top-nav .web-tools .language {
+  position: relative;
+  margin-right: 10px;
+}
+.main-container .navbar-container .top-nav .web-tools .language select {
+  border: 2px solid #86C232;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  padding: 5px 15px 5px 15px;
+  border-radius: 3px;
+  cursor: pointer;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+}
+.main-container .navbar-container .top-nav .web-tools .language select:hover {
+  transform: scale(1.1);
+}
+.main-container .navbar-container .top-nav .web-tools .language select:focus {
+  outline: none;
+  box-shadow: 0 0 5px snow;
+  border-color: #86C232;
+}
+.main-container .navbar-container .top-nav .web-tools .language option {
+  font-weight: bold;
+}
+.main-container .navbar-container .top-nav .web-tools .money {
+  position: relative;
+}
+.main-container .navbar-container .top-nav .web-tools .money select {
+  border: 2px solid #86C232;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  padding: 5px 15px 5px 15px;
+  border-radius: 3px;
+  cursor: pointer;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+}
+.main-container .navbar-container .top-nav .web-tools .money select:hover {
+  transform: scale(1.1);
+}
+.main-container .navbar-container .top-nav .web-tools .money select:focus {
+  outline: none;
+  box-shadow: 0 0 5px snow;
+  border-color: #86C232;
+}
+.main-container .navbar-container .top-nav .web-tools .money option {
+  font-weight: bold;
+}
+.main-container .navbar-container .top-nav a {
+  text-decoration: none;
+  color: #474B4F;
+  padding: 20px 10px;
+  font-weight: bold;
+}
+.main-container .navbar-container .top-nav a:hover {
+  color: #86C232;
+}
+.main-container .navbar-container .middle-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.main-container .navbar-container .middle-nav .logo {
+  width: 320px;
+  display: flex;
+  align-items: center;
+}
+.main-container .navbar-container .middle-nav .logo img {
+  width: 90px;
+  height: 60px;
+}
+.main-container .navbar-container .middle-nav .logo a {
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+}
+.main-container .navbar-container .middle-nav .search {
+  width: 860px;
+  position: relative;
+  border-radius: 13px;
+  border: 1px solid gray;
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+}
+.main-container .navbar-container .middle-nav .search select {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 13px;
+  margin-right: 5px;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  cursor: pointer;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+}
+.main-container .navbar-container .middle-nav .search select:focus {
+  outline: none;
+  border-color: #86C232;
+}
+.main-container .navbar-container .middle-nav .search input {
+  border: none;
+  outline: none;
+  border-radius: 13px;
+  font-family: "Montserrat", sans-serif;
+}
+.main-container .navbar-container .middle-nav .search img {
+  position: absolute;
+  top: 8px;
+  right: 10px;
+  cursor: pointer;
+}
+.main-container .navbar-container .middle-nav .tools {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 20px;
+}
+.main-container .navbar-container .middle-nav .tools select {
+  margin-right: 40px;
+  border: none;
+  border-radius: 13px;
+}
+.main-container .navbar-container .middle-nav .tools a {
+  text-decoration: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 5px;
+  color: black;
+}
+.main-container .navbar-container .middle-nav .tools a img {
+  margin: 0 8px;
 }/*# sourceMappingURL=main.css.map */
