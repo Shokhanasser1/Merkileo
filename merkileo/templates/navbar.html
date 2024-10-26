@@ -1,7 +1,7 @@
 <div class="navbar-container">
     <div class="top-nav">
         <div class="pages">
-            <a href="">About Us</a>
+            <a href="{% url 'aboutPage' %}">About Us</a>
             <a href="">Our Contacts</a>
             <a href="">Order Tracking</a>
         </div>
@@ -27,7 +27,7 @@
     <div class="middle-nav">
         <div class="logo">
             <img src="../static/logo.jpg" alt="logo">
-            <a href="">Merkileo</a>
+            <a href="{% url 'main' %}">Merkileo</a>
         </div>
         <div class="search">
             <select id="category-select" onchange="">
