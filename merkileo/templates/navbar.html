@@ -1,3 +1,4 @@
+{% load static %}
 <div class="navbar-container">
     <div class="top-nav">
         <div class="pages">
@@ -26,7 +27,7 @@
     </div>
     <div class="middle-nav">
         <div class="logo">
-            <img src="../static/logo.jpg" alt="logo">
+            <img src="{% static 'logo.jpg' %}" alt="logo">
             <a href="{% url 'main' %}">Merkileo</a>
         </div>
         <div class="search">
@@ -38,16 +39,16 @@
                 <option value="furniture">Мебель</option>
             </select>
             <input type="text" placeholder="Searh for items...">
-            <img src="../static/icons/Search.png" width="20" height="20"  alt="search">
+            <img src="{% static 'icons/Search.png' %}" width="20" height="20"  alt="search">
         </div>
         <div class="tools">
             <select id="location">
                 <option value="all" selected><img src="../static/icons/Location.png" alt="location">Ваша локация</option>
                 <option value="Samarkand">Самарканд</option>
             </select>
-            <a href=""><img src="../static/icons/Wishlist.png" width="20" height="20" alt="wishlist">Wishlist</a>
-            <a href=""><img src="../static/icons/cart.png" alt="cart">Cart</a>
-            <a href=""><img src="../static/icons/User.png" alt="account">Account</a>
+            <a href=""><img src="{% static 'icons/Wishlist.png' %}" width="20" height="20" alt="wishlist">Wishlist</a>
+            <a href=""><img src="{% static 'icons/cart.png' %}" alt="cart">Cart</a>
+            <a href=""><img src="{% static 'icons/User.png' %}" alt="account">Account</a>
         </div>
     </div>
     <!-- <div class="bottom-nav">
